@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="2.4" 
+	xmlns="http://java.sun.com/xml/ns/j2ee" 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xsi:schemaLocation="http://java.sun.com/xml/ns/j2ee 
+	http://java.sun.com/xml/ns/j2ee/web-app_2_4.xsd">
+	  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+    <welcome-file>index.htm</welcome-file>
+    <welcome-file>index.jsp</welcome-file>
+    <welcome-file>default.html</welcome-file>
+    <welcome-file>default.htm</welcome-file>
+    <welcome-file>default.jsp</welcome-file>
+  </welcome-file-list>
+  <servlet>
+    <servlet-name>CategoryDetailControl</servlet-name>
+    <servlet-class>com.bsw.servlet.common.CategoryDetailControl</servlet-class>
+  </servlet>
+  <servlet> 
+  
+    <servlet-name>WelcomeControl</servlet-name>
+    <servlet-class>com.bsw.servlet.common.WelcomeControl</servlet-class>
+  </servlet>
+  <servlet>
+   
+    <servlet-name>BookDetailControl</servlet-name>
+    <servlet-class>com.bsw.servlet.common.BookDetailControl</servlet-class>
+  </servlet>
+  <servlet>
+  
+    <servlet-name>LoginControl</servlet-name>
+    <servlet-class>com.bsw.servlet.common.LoginControl</servlet-class>
+  </servlet>
+  <servlet>
+  
+    <servlet-name>ShopCartControl</servlet-name>
+    <servlet-class>com.bsw.servlet.shopcart.ShopCartControl</servlet-class>
+  </servlet>
+  <servlet>
+   
+    <servlet-name>RegisterControl</servlet-name>
+    <servlet-class>com.bsw.servlet.common.RegisterControl</servlet-class>
+  </servlet>
+  <servlet>
+   
+    <servlet-name>AddToShopCartControl</servlet-name>
+    <servlet-class>com.bsw.servlet.shopcart.AddToShopCartControl</servlet-class>
+  </servlet>
+  <servlet>
+ 
+    <servlet-name>DeleteShopCartItemControl</servlet-name>
+    <servlet-class>com.bsw.servlet.shopcart.DeleteShopCartItemControl</servlet-class>
+  </servlet>
+  <servlet>
+  
+    <servlet-name>ModifyShopCartItemControl</servlet-name>
+    <servlet-class>com.bsw.servlet.shopcart.ModifyShopCartItemControl</servlet-class>
+  </servlet>
+  <servlet>
+   
+    <servlet-name>ChangeShopCartItemControl</servlet-name>
+    <servlet-class>com.bsw.servlet.shopcart.ChangeShopCartItemControl</servlet-class>
+  </servlet>
+  <servlet>
+  
+    <servlet-name>BookInfoManageControl</servlet-name>
+    <servlet-class>com.bsw.servlet.common.BookInfoManageControl</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>AbstractServlet</servlet-name>
+    <servlet-class>com.bsw.servlet.common.AbstractServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ManagerControl</servlet-name>
+    <servlet-class>com.bsw.servlet.common.ManagerControl</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ModifyBookControl</servlet-name>
+    <servlet-class>com.bsw.servlet.common.ModifyBookControl</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ChargeControl</servlet-name>
+    <servlet-class>com.bsw.servlet.shopcart.ChargeControl</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>BookCateManagerControl</servlet-name>
+    <servlet-class>com.bsw.servlet.common.BookCateManagerControl</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>AddNewBookControl</servlet-name>
+    <servlet-class>com.bsw.servlet.common.AddNewBookControl</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>CategoryDetailControl</servlet-name>
+    <url-pattern>/servlet/CategoryDetailControl</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>WelcomeControl</servlet-name>
+    <url-pattern>/servlet/WelcomeControl</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>BookDetailControl</servlet-name>
+    <url-pattern>/servlet/BookDetailControl</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>LoginControl</servlet-name>
+    <url-pattern>/servlet/LoginControl</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ShopCartControl</servlet-name>
+    <url-pattern>/servlet/ShopCartControl</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>RegisterControl</servlet-name>
+    <url-pattern>/servlet/RegisterControl</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AddToShopCartControl</servlet-name>
+    <url-pattern>/servlet/AddToShopCartControl</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DeleteShopCartItemControl</servlet-name>
+    <url-pattern>/servlet/DeleteShopCartItemControl</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ModifyShopCartItemControl</servlet-name>
+    <url-pattern>/servlet/ModifyShopCartItemControl</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ChangeShopCartItemControl</servlet-name>
+    <url-pattern>/servlet/ChangeShopCartItemControl</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>BookInfoManageControl</servlet-name>
+    <url-pattern>/servlet/BookInfoManageControl</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AbstractServlet</servlet-name>
+    <url-pattern>/servlet/AbstractServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ManagerControl</servlet-name>
+    <url-pattern>/servlet/ManagerControl</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ModifyBookControl</servlet-name>
+    <url-pattern>/servlet/ModifyBookControl</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ChargeControl</servlet-name>
+    <url-pattern>/servlet/ChargeControl</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>BookCateManagerControl</servlet-name>
+    <url-pattern>/servlet/BookCateManagerControl</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AddNewBookControl</servlet-name>
+    <url-pattern>/servlet/AddNewBookControl</url-pattern>
+  </servlet-mapping>
+     
+</web-app>
